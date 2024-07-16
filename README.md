@@ -38,7 +38,7 @@ Data Preprocessing:
 Compiling, Training, and Evaluating the Model:
 
     Original Model:
-    
+    ![alt text](image.png)
 
 
 

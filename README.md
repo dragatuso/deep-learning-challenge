@@ -38,7 +38,11 @@ Data Preprocessing:
 Compiling, Training, and Evaluating the Model:
 
     Original Model:
-    
+
+    ![image](https://github.com/user-attachments/assets/b6fa2f20-74bd-4c6d-83c3-444028b8d263)
+
+
+
 
 
 

@@ -75,8 +75,7 @@ The third and last model optimization attempt was the best model, and has the fo
 
 # Summary
 
-As explained before, by using the keras_tuner library and changing the number of layers and units for each layer I was able to reach better models, however, all of them with accuracy figures under 75% which was the requested target for the exercise. 
-One of the thigns that could have contributed to achieve a model with higher accuracy is the amount of input data. By increasing the input data probably the model will be better.
+As explained before, by using the keras_tuner library and changing the number of layers and units for each layer I was able to reach better models, the best one with accuracy of 72.94% and loss of 54.94%. However, all of them with accuracy figures under 75% which was the requested target for the exercise. One of the things that could have contributed to achieve a model with higher accuracy is the amount of input data. By increasing the amount of input data probably the model will be more accurate.
 
-
+As an alternative to the neural network model, for solving classification tasks we could also use a random forest model which is more simple than the one used in this exercise. In general, random forest models are more robust and provide excelent accuracy levels. In addition, they are resistant to overfitting and are more interpretable. Finally, random forest models require less data and with less preparation, which could be better to solve this exercise given that we didn't have a big dataset.
 

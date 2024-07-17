@@ -37,8 +37,16 @@ Data Preprocessing:
 
 Compiling, Training, and Evaluating the Model:
 
-    Original Model:
-    ![alt text](image.png)
+Original Model:
+
+![model](image.png)
+
+The original model has 3 layers:
+*Input Layer: 8 nodes and Relu activation.
+*Hidden Layer: 5 nodes and Relu activation.
+*Output Layer: 1 node and Sigmoid activation.
+
+The result of the model shows the following:
 
 
 

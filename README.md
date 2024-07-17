@@ -1,4 +1,5 @@
 # deep-learning-challenge
+This repository contains the starter code with the original model, the starter code with 3 attempts to optimize the model, a README file with the analysis report, the images included in the report, and the model h5 files. Most of the code was based in the exercises completed in class, but I also review code wit copilot and check some recommendations online.
 
 # Overview 
 
@@ -52,6 +53,30 @@ The result of the model shows the following:
 An accuracy of 72.51% and a loss of 0.556%.
 
 Model Optimization:
+
+To optimize the original model I used the keras_tuner library and applied a function that allows keras_tuner to decide which activation function to use in each hidden layer and the optiomal number of units.
+
+![alt text](image-2.png)
+
+Although I never reached the target model accuracy of 75%, I did 3 model optimization attempts and, by changing number of layers and the maximum units, I was able to achieve a higher accuracy in each attempt.
+As observed, increasing the number of layers and the number of maximum units are 2 of the possible ways of achieving a better model, that has a better accuracy.
+
+For the first model attempt, I tested a model with 3 layers with up to 10 units, and I reached an accuracy of 72.73%.
+![alt text](image-3.png)
+
+For the second model attempt, I tested a model with 5 layers with up to 50 units, and I reached an accuracy of 72.91%.
+![alt text](image-4.png)
+
+For the third and last model attempt, I tested a model with 6 layers with up to 100 units, and I reached an accuracy of 72.94%.
+![alt text](image-5.png)
+
+The third and last model optimization attempt was the best model, and has the following characteristics:
+![alt text](image-6.png)
+
+# Summary
+
+As explained before, by using the keras_tuner library and changing the number of layers and units for each layer I was able to reach better models, however, all of them with accuracy figures under 75% which was the requested target for the exercise. 
+One of the thigns that could have contributed to achieve a model with higher accuracy is the amount of input data. By increasing the input data probably the model will be better.
 
 
 

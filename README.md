@@ -42,11 +42,14 @@ Original Model:
 ![model](image.png)
 
 The original model has 3 layers:
-*Input Layer: 8 nodes and Relu activation.
-*Hidden Layer: 5 nodes and Relu activation.
-*Output Layer: 1 node and Sigmoid activation.
+*Input Layer: 8 units and Relu activation.
+*Hidden Layer: 5 units and Relu activation.
+*Output Layer: 1 unit and Sigmoid activation.
 
 The result of the model shows the following:
+![alt text](image-1.png)
+
+An accuracy of 72.51% and a loss of 0.556%.
 
 
 

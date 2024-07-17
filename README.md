@@ -21,7 +21,7 @@ Therefore, we developed different models to predict whether applicants will be s
 
 # Results
 
-Data Preprocessing:
+# - Data Preprocessing:
 - The target variable of the model is the "Is Successful" (1 of the organization used the funding effectively and 0 if the organization didn't used the funding effectively).
 - The feature variables of the model are:
         - APPLICATION_TYPE
@@ -35,21 +35,23 @@ Data Preprocessing:
         - ASK_AMT
 - The variables that were removed from the input data because they are neither targets nor features are EIN and NAME.
 
-Compiling, Training, and Evaluating the Model:
+# - Compiling, Training, and Evaluating the Model:
 
 Original Model:
 
 ![model](image.png)
 
 The original model has 3 layers:
-*Input Layer: 8 units and Relu activation.
-*Hidden Layer: 5 units and Relu activation.
-*Output Layer: 1 unit and Sigmoid activation.
+- Input Layer: 8 units and Relu activation.
+- Hidden Layer: 5 units and Relu activation.
+- Output Layer: 1 unit and Sigmoid activation.
 
 The result of the model shows the following:
 ![alt text](image-1.png)
 
 An accuracy of 72.51% and a loss of 0.556%.
+
+Model Optimization:
 
 
 
